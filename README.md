@@ -2,7 +2,7 @@
 
 
 This repository is an official implementation of the paper [**AVIGATE: Learning Audio-Guided Video Representation with Gated Attention for Video-Text Retrieval**](https://openaccess.thecvf.com/content/CVPR2025/papers/Jeong_Learning_Audio-guided_Video_Representation_with_Gated_Attention_for_Video-Text_Retrieval_CVPR_2025_paper.pdf). 
-
+![AVIGATE](AVIGATE.png)
 
 ## Requirement
 ```sh
@@ -40,6 +40,16 @@ python preprocess/compress_video.py --input_root [raw_video_path] --output_root 
 This script will compress the video to *3fps* with width *224* (or height *224*). Modify the variables for your customization.
 
 # How to Run
+Download CLIP (ViT-B/32) weight,
+```sh
+wget -P ./modules https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt
+```
+or, download CLIP (ViT-B/16) weight,
+```sh
+wget -P ./modules https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt
+```
+Download AST weight from [AST - Pretrained Models 1. "Full AudioSet, 10 tstride, 10 fstride, with Weight Averaging (0.459 mAP)"](https://github.com/YuanGongND/ast)
+
 **For MSR-VTT Training** 
 ```sh
 run.sh
@@ -62,4 +72,4 @@ If you find CLIP4Clip useful in your work, you can cite the following paper:
 ```
 
 # Acknowledgments
-Our code is based on [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip).
+Our code is based on [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip) and [AST](https://github.com/YuanGongND/ast).
