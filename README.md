@@ -1,7 +1,7 @@
-# AVIGATE: Learning Audio-Guided Video Representation with Gated Attention for Video-Text Retrieval (CVPR 2025, Oral)
+# Learning Audio-Guided Video Representation with Gated Attention for Video-Text Retrieval
 
 
-This repository is an official implementation of the paper [**AVIGATE: Learning Audio-Guided Video Representation with Gated Attention for Video-Text Retrieval**](https://openaccess.thecvf.com/content/CVPR2025/papers/Jeong_Learning_Audio-guided_Video_Representation_with_Gated_Attention_for_Video-Text_Retrieval_CVPR_2025_paper.pdf). 
+This repository is an official implementation of the paper [**AVIGATE: Learning Audio-Guided Video Representation with Gated Attention for Video-Text Retrieval**](https://openaccess.thecvf.com/content/CVPR2025/papers/Jeong_Learning_Audio-guided_Video_Representation_with_Gated_Attention_for_Video-Text_Retrieval_CVPR_2025_paper.pdf)  (CVPR 2025, Oral). 
 ![AVIGATE](AVIGATE.png)
 
 ## Requirement
