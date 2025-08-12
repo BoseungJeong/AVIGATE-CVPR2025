@@ -1,5 +1,3 @@
-# AVIGATE-CVPR2025
-This repository is an official implementation of AVIGATE (CVPR 2025, oral)
 # AVIGATE: Learning Audio-Guided Video Representation with Gated Attention for Video-Text Retrieval (CVPR 2025, oral)
 
 
