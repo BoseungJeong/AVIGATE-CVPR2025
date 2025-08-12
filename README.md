@@ -48,7 +48,8 @@ or, download CLIP (ViT-B/16) weight,
 ```sh
 wget -P ./modules https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt
 ```
-Download AST weight from [AST - Pretrained Models 1. "Full AudioSet, 10 tstride, 10 fstride, with Weight Averaging (0.459 mAP)"](https://github.com/YuanGongND/ast)
+Download AST weight from [AST](https://github.com/YuanGongND/ast) (Pretrained Models 1: "Full AudioSet, 10 tstride, 10 fstride, with Weight Averaging (0.459 mAP)").
+
 
 **For MSR-VTT Training** 
 ```sh
